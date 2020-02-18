@@ -1,24 +1,24 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'My Documentation Site',
+  tagline: 'The tagline of my documentation site',
+  url: 'https://baquelo.github.io/documentation-docusaurus/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'baquelo', 
+  projectName: 'documentation-docusaurus',
   themeConfig: {
     navbar: {
       title: 'My Site',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'My Documentation Site Logo',
         src: 'img/logo.svg',
       },
       links: [
-        {to: 'docs/doc1', label: 'Docs', position: 'left'},
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'docs/doc1', label: 'My Docs', position: 'left'},
+        {to: 'blog', label: 'My Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://github.com/baquelo/documentation-docusaurus',
+          label: 'My GitHub',
           position: 'right',
         },
       ],
@@ -61,11 +61,11 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/baquelo',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/baquelo',
             },
           ],
         },
